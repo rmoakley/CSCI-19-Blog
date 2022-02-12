@@ -1,1 +1,37 @@
+Sat 12 Feb, 2022
+
+TryHackMe Room 1 "Introductory Networking"
+CSCI-19 Module 2
+
+   Summary : 
+   This weeks lab introduced us to basic network concepts that are fundemental to our understanding networking and security. The 
+   room addressed topics such as OSI, the TCP/IP model, encapsulation, DNS, IP addressing, as well as several beginner networking tools like ping,
+   traceroute, WHOIS, and dig.
+   
+   
+   Synopsis : 
+   Introductory Networking provides crucial information on the basics of networking. Beginning with the OSI (Open Systems Interconnection) model
+   where it describes the several layers that form the network as a whole. Going into detail on how the seven layers cooperate together to maintain 
+   a network standard for communication. Then the room delves into the concept of encapsulation, more specifically, how data gathers additional 
+   information from each layer it passes through. Also, adding how the tranmissions are "de-encapsulated" backwards through the layers when 
+   received by the end host. 
+   
+   Room 1 then goes on to address the additional protocols used in networking and how they align themselves with the OSI model. It also covers a 
+   concept known as the "three way handshake" where a client and server need to send a series of SYN, SYN/ACK, and ACK packets in order to connect 
+   to each other.
+   
+   Finally, the room covers several networking tools and how to use them in order to gain crucial information about a network or website. It talks
+   about ping and how it can show connectivity to a website or host. The use of traceroute in mapping the path data will take to its destination. 
+   Using WHOIS and dig to discover identifing information about a website as well as the server its hosted on, and important OSINT including emails, 
+   phone numbers, physical addresses, and more. 
+   
+   
+   My Thoughts :
+   I've used TryHackMe before and have always found the lessons to be extremely helpful. This room continues that trend with lots of information that 
+   I found to be really beneficial for a basic understanding of networking; Hence the name, "Introductory Networking". While I did have prior 
+   knowledge about the TCP/IP model, the SYN ACK proccess, as well as most of the tools covered, I was unaware of the several layers that data 
+   needs to pass through to reach its destination as well as the process of encapsulation. The room did a really good job at covering the basics and I 
+   would recommend it to anyone who is just starting in networking.
+   
+   
 
