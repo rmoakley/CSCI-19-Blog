@@ -1,15 +1,58 @@
+
+Fri 25 Feb, 2022
+  
+TryHackMe Room 2 "Intro to LAN"
+CSCI-19 Module 3
+  
+   Summary: 
+   The room this week improved our understanding of the different LAN topologies, subnetting, as well as the different networking protocols such as ARP 
+   and DHCP. However, it also briefly covered topics such as IP addressing, routers, and switches. This room was full of useful, fundamental 
+   information regarding basic networking concepts. I found the sections on subnetting as well as ARP and DHCP to be the most informative; As these 
+   are protocols I have seen before using wireshark. Though, at the time I was unaware of what their function were. 
+       
+   A Closer Look:
+   The first lesson in the room covers the various forms of topologies seen in real-world LANs. Such as ring, BUS, and star topologies. It covers the 
+   different pros and cons attributed to each topology, as well as their relevance in modern networks. First, the room addresses star topologies,
+   depicting how all the devices are connected to a central switch or hub. Then, it discusses how a ring topology connects all the devices
+   together with cables so that data flows from device to device to its destination. Then, finally, it talks about the BUS topology and how the devices 
+   are connected to a central cable or "backbone".
+   
+   Then the room goes into detail about subnetting and how it may be ideal to split one large network into multiple smaller ones that communicate with 
+   each other. It explains a little about IP addressing and how it relates to the subnet, more specifically, how subnets use IP addresses to 
+   communicate on a network. Key terms such as network addresses, host addresses, and default gateways are also defined and explained. 
+   
+   Then the room delves into two different protocols, ARP and DHCP. First, it explains the Address Resolution Protocol (ARP) and how requests
+   and replies are sent between devices on a network. More specifically, how a device sends out an ARP request looking for a specific MAC address of 
+   the device it wants to communicate with. Then, how the protocol sends an ARP reply once it's found the device it was looking for. 
+   
+   The Last protocol to be discussed was the Dynamic Host Configuration Protocol (DHCP). This smaller section depicts the conversation that takes place 
+   between a device looking to be configured with an IP address, and the DHCP server. When a device is not configured with an IP address manually, it 
+   can use a DHCP server to configure an IP address by sending a DHCP Discover packet. If this discover packet is picked up by the server it sends out 
+   a DHCP offer. The computer then sends a DHCP request to the server requesting for that IP address to which the server sends a DHCP Ack packet, and 
+   assigns that address to the computer. 
+   
+  
+   Personal Thoughts:
+   I thought this room was great, I found the lessons on the subnet as well as ARP and DHCP to be the most interesting parts of the room. The different 
+   real-world topologies was also very informative as it is always nice to see examples of what LANs might look like. Overall, this room did a good 
+   job at improving my fundamental understanding of networking. 
+   
+ 
+  
+  
+
 Sat 12 Feb, 2022
 
 TryHackMe Room 1 "Introductory Networking"
 CSCI-19 Module 2
 
-   Summary : 
+   Summary: 
    This weeks lab introduced us to basic network concepts that are fundemental to our understanding networking and security. The 
    room addressed topics such as OSI, the TCP/IP model, encapsulation, DNS, IP addressing, as well as several beginner networking tools like ping,
    traceroute, WHOIS, and dig.
    
    
-   Synopsis : 
+   A Closer Look: 
    Introductory Networking provides crucial information on the basics of networking. Beginning with the OSI (Open Systems Interconnection) model
    where it describes the several layers that form the network as a whole. Going into detail on how the seven layers cooperate together to maintain 
    a network standard for communication. Then the room delves into the concept of encapsulation, more specifically, how data gathers additional 
@@ -26,12 +69,22 @@ CSCI-19 Module 2
    phone numbers, physical addresses, and more. 
    
    
-   My Thoughts :
+   Personal Thoughts :
    I've used TryHackMe before and have always found the lessons to be extremely helpful. This room continues that trend with lots of information that 
    I found to be really beneficial for a basic understanding of networking; Hence the name, "Introductory Networking". While I did have prior 
    knowledge about the TCP/IP model, the SYN ACK proccess, as well as most of the tools covered, I was unaware of the several layers that data 
    needs to pass through to reach its destination as well as the process of encapsulation. The room did a really good job at covering the basics and I 
    would recommend it to anyone who is just starting in networking.
+   
+   
+   
+  
+  
+ 
+  
+  
+  
+  
    
    
 
