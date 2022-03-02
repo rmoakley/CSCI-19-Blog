@@ -6,26 +6,26 @@ CSCI-19 Module 4
    Summary:
    This weeks TryHackMe room was a bit shorter than previous rooms, however, still delivers a lot of important information. The room covers the 
    fundamentals as well as more in depth information on the Domain Name System (DNS) and how computers use it to access websites. It talks about 
-   how DNS determines certain aspects of a websites URL by using the domain heirarchy. Also covered is the different record types including A, AAAA, 
+   how DNS determines certain aspects of a websites URL by using the domain hierarchy. Also covered is the different record types including A, AAAA, 
    CNAME, MX, and TXT. Lastly, it goes over how the entire system works together when a computer makes a request for a webpage. 
    
    A Closer Look: 
    The room first gives a breif explanation of DNS and how it makes our lives easier so that we don't have to remember strings of numbers. Then it 
    delves into the "Domain Hierarchy", or rather, how the URL is split up into different sections for the DNS to handle. Terms such as TLD (Top-Level
-   Domain) SLD (Second-Level Domain) and Subdomain is explained. The TLD is responsible for the ".com" or ".org" and there a several types of TLD 
+   Domain) SLD (Second-Level Domain) and Subdomain are explained. The TLD is responsible for the ".com" or ".org" and there a several types of TLD 
    including gTLD and ccTLD. SLD is responsible for the actual name part of the website. For instance, in www.facebook.com the SLD would be facebook. 
    Lastly, is the subdomain which is to the left of the SLD. Next is the different kinds of records used by DNS. A, AAAA, CNAME, MX, and TXT are all 
-   various DNS records. These can be used when trying to obtain certain identifing information about a certain website. Such as IP info, domain-
-   names linked to a website, etc. Lastly, the room explains the complex dance a computer and DNS server has to go through in order to gain connection
-   to a website. Such as how it sends requests to various DNS servers that handle different parts of the domain hierarchy.
+   various DNS records. These can be used when trying to obtain certain identifying information about a website. Such as IP info, domain-names linked 
+   to a website, etc. Lastly, the room explains the complex dance a computer and DNS server has to go through in order to gain connectionto a website. 
+   Such as how it sends requests to various DNS servers that handle different parts of the domain hierarchy.
    
    Personal Thoughts : 
    "DNS in Detail" was imperitive for my understanding of how websites and clients communicate with each other to gain connection. It is a very 
    complex system with a lot of moving parts. I feel that the DNS records types could have used some further explanation as I feel I dont fully 
-   grasp the importance of them beyond making queries into a website. Unless that is their entire purpose in which I understand them just nicely! 
+   grasp the importance of them beyond making queries into a website. Unless that is their entire purpose in which I understand them perfectly! 
    Regardless, I will do my own research into the records types to fill in some of the gaps. The process of making a DNS request was laid out very 
-   nicely however. I feel I understand how the computer checks its local cache for the site info, and if it doesn't find what it's looking for it hops
-   from recursive, to root, to authorative DNS servers and back. Overall, this lab was great as always and I feel it was very informative. 
+   nicely however. I feel I understand the process of how a computer checks its local cache for the site info, and if it doesn't find what it's looking 
+   for it hops from recursive, to root, to authorative DNS servers and back. Overall, this lab was great as always and I feel it was very informative. 
    
  
  
