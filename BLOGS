@@ -1,3 +1,35 @@
+May 1, 2022
+
+TryHackMe Room 4 "Active Reconnaissance" 
+CSCI-19 Module 5
+
+  Summary:
+  Active Reconnaissance focuses on simple, yet powerful tools that can be used to gather information useful for penetration testing and IT. These 
+  tools include ping, traceroute, telnet, and nc. The room explains how these tools can be used in "active reconnaissance" along with other web 
+  based reconnaissance techniques such as whois, though, whois is not covered in this room. 
+  
+  A Closer Look:
+  Room 4 begins by explaining the concepts of passive and active reconnaissance, informing us that passive recon method that doesn't require direct engagement
+  or connection. Where as active recon requires more physcial engagement such as social engineering or physical recon of a location.Also because a lot of this
+  information is public it is extremely easy to find, and is not necessarily suspicious when you go looking for it, depending on what you do. The room begins 
+  with important tools you can use within the web browser, more specifically, looking at javascript and using developer tools. Then, it delves into the use of 
+  "ping" to determine if remote systems have network functionality. It covers several options you can use such as -c/-n to modify the amount of packets to be sent. 
+  Then, the room switches over to "traceroute", which is a room that is used to view the path a packet takes en route to destination. It shows potentially important
+  information such as the IP addresses of routers used along the path. Next, the room discusses telnet which is a tool used to connect to remotely to devices with a 
+  CLI. It explains the use of telnet when connecting to a webpage, and also warns how unsecure telnet is due to it sending credentials and other important 
+  information in clear text. Finally, the room covers netcat. A tool that has many uses, however, the room focuses purely on its' use in listening on a TCP port.
+  It explains how netcat can be used to act as a client on listening ports as well as act as a server listening on a port. 
+  
+  Personal Thoughts: I thought Active Reconnaissance to be a very informative room on how to gather information on a target. Penetration testing is a very
+  captivating topic and I will always enjoy material on this subject. More importantly however, I found the room covered fairly easy to use, yet, important 
+  tools that can be used in recon. While tools such as ping and traceroute have been discussed in previous rooms, I still found important information
+  now that it was framed in use for penetration testing. Overall, I thought the room was as informative and well put together as I would expect a 
+  TryHackMe room to be, and the information to be useful for the class.
+  
+ 
+ 
+ 
+ 
 Mar 2, 2022
 
 TryHackMe Room 3 "DNS in Detail"
@@ -19,7 +51,7 @@ CSCI-19 Module 4
    to a website, etc. Lastly, the room explains the complex dance a computer and DNS server has to go through in order to gain connectionto a website. 
    Such as how it sends requests to various DNS servers that handle different parts of the domain hierarchy.
    
-   Personal Thoughts : 
+   Personal Thoughts: 
    "DNS in Detail" was imperitive for my understanding of how websites and clients communicate with each other to gain connection. It is a very 
    complex system with a lot of moving parts. I feel that the DNS records types could have used some further explanation as I feel I dont fully 
    grasp the importance of them beyond making queries into a website. Unless that is their entire purpose in which I understand them perfectly! 
