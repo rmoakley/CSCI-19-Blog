@@ -1,3 +1,26 @@
+Week 15, 2022
+Nessus
+  
+  Summary:
+   Nessus is a scanning tool used to discover common vulnerabilities on a network. Is covers a wide range of different vulnerabilities within a wide range
+   of different types of scans. It offers key details including the CVE, the fix, etc. This room focused on using Nessus to conduct scans on a target IP.
+   
+  A Closer Look: 
+   The lab took some time, though, was very informational. I had no idea about Nessus, though, I've used similar scanning tools. Nessus is very thorough in 
+   the different scan options and types that you can use as well as the amount of information you gain back once the scan is complete. It uncovers a wide 
+   range of CVE's that may be hiding on your network or device. It gives a good description on what the vulnerability is as well as what you can do to 
+   remedy the situation. It goes so in detail that Nessus offers different articles right there in the scan that cover to what the vulnerability is 
+   and how to fix it.
+   
+  Personal Thoughts:
+   I thought this lab was great. I always find anything cybersecurity related to be very interesting. I've poked around with CVE's and different scanners 
+   in the past, though, I appreciate the GUI Nessus offers. Which is odd because I dont usually prefer GUIs over the CLI however the layout for Nessus is 
+   very user-friendly. I would suggest anyone that cares about their online security to give this a shot and see what it might uncover!
+
+
+
+
+
 
 Week 13, 2022
 IPv4 Subnetting Practice
